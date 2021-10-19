@@ -52,10 +52,10 @@ public:
         pushButton_2->setGeometry(QRect(320, 60, 75, 23));
         pushButton_3 = new QPushButton(centralWidget);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(320, 120, 75, 23));
+        pushButton_3->setGeometry(QRect(210, 110, 75, 23));
         pushButton_4 = new QPushButton(centralWidget);
         pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-        pushButton_4->setGeometry(QRect(210, 120, 75, 23));
+        pushButton_4->setGeometry(QRect(320, 110, 75, 23));
         QtWidgetsApplication1Class->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(QtWidgetsApplication1Class);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
@@ -83,8 +83,8 @@ public:
         label->setText(QString());
         pushButton->setText(QCoreApplication::translate("QtWidgetsApplication1Class", "cloche 1", nullptr));
         pushButton_2->setText(QCoreApplication::translate("QtWidgetsApplication1Class", "cloche 2", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("QtWidgetsApplication1Class", "cloche 4", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("QtWidgetsApplication1Class", "cloche 3", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("QtWidgetsApplication1Class", "cloche 3", nullptr));
+        pushButton_4->setText(QCoreApplication::translate("QtWidgetsApplication1Class", "cloche 4", nullptr));
     } // retranslateUi
 
 };

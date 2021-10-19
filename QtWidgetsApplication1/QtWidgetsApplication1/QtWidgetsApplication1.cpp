@@ -17,7 +17,7 @@ QtWidgetsApplication1::QtWidgetsApplication1(QWidget *parent)
 
 void QtWidgetsApplication1::onSocketConnected() {
 
-	ui.label->setText("yo mon reuf");
+	ui.label->setText("Connecter");
 
 };
 
@@ -115,7 +115,7 @@ void QtWidgetsApplication1::cloche3() {
 	trame5[8] = 0x00;
 	trame5[9] = 0x02;
 	trame5[10] = 0x00;
-	trame5[11] = 0x03;
+	trame5[11] = 0x04;
 
 	QByteArray data5(trame5, 12);
 	socket->write(data5);
@@ -153,7 +153,7 @@ void QtWidgetsApplication1::cloche4() {
 	trame7[8] = 0x00;
 	trame7[9] = 0x02;
 	trame7[10] = 0x00;
-	trame7[11] = 0x04;
+	trame7[11] = 0x08;
 
 	QByteArray data7(trame7, 12);
 	socket->write(data7);
