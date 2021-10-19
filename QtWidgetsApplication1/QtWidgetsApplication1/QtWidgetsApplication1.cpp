@@ -76,8 +76,8 @@ void QtWidgetsApplication1::cloche2() {
 	trame3[7] = 0x06;
 	trame3[8] = 0x00;
 	trame3[9] = 0x02;
-	trame3[10] = 0x01;
-	trame3[11] = 0x01;
+	trame3[10] = 0x00;
+	trame3[11] = 0x02;
 
 	QByteArray data3(trame3, 12);
 	socket->write(data3);
@@ -93,7 +93,7 @@ void QtWidgetsApplication1::cloche2() {
 	trame4[7] = 0x06;
 	trame4[8] = 0x00;
 	trame4[9] = 0x02;
-	trame4[10] = 0x01;
+	trame4[10] = 0x00;
 	trame4[11] = 0x00;
 
 	QByteArray data4(trame4, 12);
@@ -114,8 +114,8 @@ void QtWidgetsApplication1::cloche3() {
 	trame5[7] = 0x06;
 	trame5[8] = 0x00;
 	trame5[9] = 0x02;
-	trame5[10] = 0x02;
-	trame5[11] = 0x01;
+	trame5[10] = 0x00;
+	trame5[11] = 0x03;
 
 	QByteArray data5(trame5, 12);
 	socket->write(data5);
@@ -131,7 +131,7 @@ void QtWidgetsApplication1::cloche3() {
 	trame6[7] = 0x06;
 	trame6[8] = 0x00;
 	trame6[9] = 0x02;
-	trame6[10] = 0x02;
+	trame6[10] = 0x00;
 	trame6[11] = 0x00;
 
 	QByteArray data6(trame6, 12);
@@ -152,8 +152,8 @@ void QtWidgetsApplication1::cloche4() {
 	trame7[7] = 0x06;
 	trame7[8] = 0x00;
 	trame7[9] = 0x02;
-	trame7[10] = 0x03;
-	trame7[11] = 0x01;
+	trame7[10] = 0x00;
+	trame7[11] = 0x04;
 
 	QByteArray data7(trame7, 12);
 	socket->write(data7);
@@ -169,7 +169,7 @@ void QtWidgetsApplication1::cloche4() {
 	trame8[7] = 0x06;
 	trame8[8] = 0x00;
 	trame8[9] = 0x02;
-	trame8[10] = 0x03;
+	trame8[10] = 0x00;
 	trame8[11] = 0x00;
 
 	QByteArray data8(trame8, 12);
